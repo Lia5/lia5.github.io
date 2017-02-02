@@ -1,0 +1,88 @@
+body {
+  min-width: 960px;
+  min-height: 883px;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  background: #000000 url(../img/background.jpg) no-repeat center;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Tahoma", sans-serif;
+  color: #e6e6e6;
+}
+
+.main-container p{
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  width: 837px;
+  margin: 0 auto;
+  padding:6px;
+  padding-top: 128px;
+}
+
+.container {
+  clear: both;
+}
+
+.logo {
+  position: relative;
+  float: left;
+  width: 267px;
+  padding-left: 2px;
+  padding-bottom: 7px;
+}
+.logo p {
+  text-align: center;
+  font-family: "Tahoma", sans-serif;
+  font-size: 10px;
+  color: #e6e6e6;
+}
+
+.palm {
+  position: absolute;
+  top: -80px;
+  right: 0;
+}
+
+.contact {
+  float: right;
+  padding: 18px 20px 7px 0;
+  font-family: "Tahoma", sans-serif;
+  font-size: 9px;
+  color: #e6e6e6;
+}
+
+.country {
+  float: left;
+  margin:6px;
+  width: 261px;
+  font-family: "Tahoma", sans-serif;
+  font-size: 15px;
+  color: #e6e6e6;
+}
+
+.country img {
+  border: 3px solid #aaaaaa;
+}
+
+.country p,
+.copyright p {
+  text-align: center;
+  margin-top: 0;
+  line-height: 14px;
+}
+
+.copyright {
+  clear: both;
+}
+
+.copyright p {
+  font-family: "Tahoma", sans-serif;
+  font-size: 10px;
+  color: #e6e6e6;
+}
