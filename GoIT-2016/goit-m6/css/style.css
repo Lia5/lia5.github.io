@@ -1,0 +1,741 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1600px;
+}
+
+.main {
+  width: 1600px;
+  height: 750px;
+  position: relative;
+  background-image: url('../img/bg-pasta.jpg');
+}
+
+.logo-text {
+  position: absolute;
+  color: #ffffff;
+  filter: invert(1);
+  top: 47px;
+  left: 179px;
+}
+
+.logo-image {
+  position: absolute;
+  color: #ffffff;
+  filter: invert(1);
+  top: 8px;
+  left: 195px;
+}
+
+.logo ul {
+  display: block;
+  padding-top: 51px;
+  padding-bottom: 87px;
+  margin-left: 574px;
+}
+
+.logo li {
+  padding: 0 12px 0 12px;
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: GentiumBookBasic, Georgia, 'Times New Roman', Times, serif;
+  font-size: 21px; 
+  font-weight: 700;
+  text-align: justify;
+}
+
+.logo .social-btn {
+  padding: 0;
+  margin: 0 5px 0 5px;
+}
+
+.nav-twitter a {
+  display: inline-block;
+  width: 21px;
+  height: 18px;
+  background-position: 0 0;
+  background-image: url('../img/sprite-social.png');
+}
+
+.nav-youtube a {
+  display: inline-block;
+  width: 21px;
+  height: 18px;
+  background-position: -34px 0;
+  background-image: url('../img/sprite-social.png');
+}
+
+.nav-fb a {
+  display: inline-block;
+  width: 21px;
+  height: 18px;
+  background-position: -62px 0;
+  background-image: url('../img/sprite-social.png');
+}
+
+.logo a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+h1 {
+  width: 955px;
+  margin: 0 auto;
+  margin-top: 80px;
+  font-family: YesevaOne;
+  color: #ffffff;
+  font-size: 90px;
+  font-weight: 400;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(1, 1, 1, 0.64);
+}
+
+.main p {
+  text-align: center;
+}
+
+.divider {
+  margin-top: 34px;
+  margin-bottom: 34px;
+}
+
+.btn {
+  border-width: 1px;
+  border-style: solid;
+  width: 226px;
+  height: 55px;
+  font-family: Lato;
+  color: #ffffff;
+  font-size: 18px; 
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.btn-book {  
+  border-color: #000000; 
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0.8;
+  
+}
+
+.btn-menu {
+  border-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.28);
+  opacity: 0.7;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content-block {
+  padding-left: 294px;
+  padding-right: 240px;
+  text-align: center;
+  background-image: url('../img/pattern-content.jpg');
+ 
+}
+
+.dish {
+  margin-top: 55px;
+  display: block;
+  float: right;
+}
+
+.content-block h2 {
+  padding-top: 106px;
+  font-family: YesevaOne;
+  color: #cc9900;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+.content-block p {
+  display: block;
+  width: 409px;
+  font-family: Lato;
+  color: #4c4c4c;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+.cook {
+  margin-top: 52px;
+}
+
+.ingridients {
+  width: 1600px;
+  
+  padding: 100px 0 97px 0;
+  background-image: url('../img/bg-basil.jpg');
+}
+
+.ingridients-block {
+  width: 409px;
+  margin-left: 815px;
+  padding: 83px 81px 83px 80px;
+  background-color:  #000000;
+  opacity: 0.67;
+}
+
+.divider-ingredients {
+  margin-top: 11px;
+  margin-bottom: 13px;
+  
+}
+
+.ingridients-block h2 {
+  margin: 0;
+  padding: 0;
+  font-family: YesevaOne;
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.ingridients-block p {
+  margin: 0;
+  padding: 0;
+  /*width: 409px;*/
+  font-family: Lato;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+.ingridients-block ul {
+  margin: 64px 0 0 0;
+  padding: 0;
+}
+
+.ingridients-block li {
+  display: inline-block;
+  margin-right: 35px;
+}
+
+.ingridients-block li:last-child {
+  margin-right: 0;
+
+}
+
+.wheat {
+  width: 110px;
+  height: 110px;
+  background-position: 0 0;
+  background-image: url('../img/sprite-ingridients.png') 
+
+}
+.paprica {
+  width: 110px;
+  height: 110px;
+  background-position: 110px 0;
+  background-image: url('../img/sprite-ingridients.png') 
+
+}
+.bread {
+  width: 110px;
+  height: 110px;
+  background-position: 252px 0;
+  background-image: url('../img/sprite-ingridients.png') 
+
+}
+
+.food-menu {
+  text-align: center;
+  margin: 0 auto;
+  background-image: url('../img/pattern-menu.jpg') 
+}
+
+.left-collum {
+  float: left;
+  width: 431px;
+  padding: 107px 84px 98px 84px;
+  margin-left: 199px
+}
+
+.right-collum {
+  float: right;
+  width: 431px;
+  padding: 107px 84px 98px 84px;
+  margin-right: 202px;
+}
+
+.food-menu h2 {
+  font-family: YesevaOne;
+  color: #cc9900;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+/*
+.food-menu p {
+  text-align: justify;
+}
+
+.food-menu p:before {
+  content: "";
+  display: block;
+  width: 100%;
+
+}
+.food-menu p:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}*/
+.food-menu p {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  color: #4c4c4c;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; 
+  text-align: left;
+  
+}
+
+.name-left {
+  float: left;
+  font-family: YesevaOne;
+  color: #c89f2d;
+  font-size: 21px; 
+  font-weight: 400;
+  line-height: 24px; 
+  text-align: justify;
+  margin-top: 10px;
+}
+
+.price-right {
+  float: right;
+  font-family: YesevaOne;
+  color: #c89f2d;
+  font-size: 21px; 
+  font-weight: 400;
+  line-height: 24px; 
+  text-align: justify;
+  margin-top: 10px;
+}
+
+.food-menu .discription {
+  margin-bottom: 30px;
+ 
+ }
+
+.special-border {
+  position: relative;
+  border: 1px solid #c89f2d;
+}
+
+.special-salad {
+  position: absolute;
+  padding: 1px 5px 1px 5px;
+  background-color: #c89f2d;
+  color: #ffffff;
+  top: -23px;
+  right: -2px;
+
+}
+
+.special-dish {
+  position: absolute;
+  padding: 1px 5px 1px 5px;
+  background-color: #c89f2d;
+  color: #ffffff;
+  top: -23px;
+  right: -2px;
+
+}
+
+.food-menu hr {
+  border: none;
+  color: #c89f2d;
+  background-color: #c89f2d;
+  height: 1px;
+}
+
+
+.reviews {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 101px;
+  background-image: url('../img/bg-barbecue.jpg') 
+}
+
+.reviews-block {
+  width: 602px;  
+  padding: 82px 84px 103px 84px;
+  margin: 0 auto;
+  background-color: #000000;
+  opacity: 0.8;  
+}
+
+.reviews-block h2 {
+  margin: 0;
+  padding: 0;
+  font-family: YesevaOne;
+  color: #ffffff;
+  font-size: 36px; 
+  font-weight: 400;
+  text-align: center;
+}
+
+.divider-reviews {
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+.reviews-block p {
+  margin: 0;
+  padding: 0;
+  font-family: GentiumBookBasic;
+  color: #dee0e0;
+  font-size: 25px; 
+  font-weight: 700;
+  line-height: 45px; 
+  text-align: center;
+}
+
+.reviews-right {
+  font-family: Lato;
+  color: #ffffff;
+  font-size: 18px; 
+  font-weight: 400;
+  line-height: 45px; 
+  text-align: center;
+}
+
+.reservation {
+  margin: 0 auto;
+  padding: 100px 355px 101px 215px;
+  background-image: url('../img/pattern-reservation.jpg') 
+}
+
+.reservation img {
+  margin-right: 30px;
+}
+
+.reservation-block-right {
+  float: right;
+  width: 417px;
+  text-align: center;
+}
+
+.reservation-block-right h2 {
+  margin: 0;
+  padding: 0;
+  font-family: YesevaOne;
+  color: #cc9900;
+  font-size: 36px; 
+  font-weight: 400;
+  line-height: 24px; 
+  text-align: center;
+}
+
+.divider-reservation {
+  margin-top: 23px;
+  margin-bottom: 32px;
+}
+
+.reservation-block-right p {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  color: #4c4c4c;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; 
+  text-align: center;
+}
+
+label {
+  display: block;
+  float: left;
+  width: 50%;
+  font-family: OpenSans, Arial, sans-serif;
+  color: #c9a131;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+}
+
+
+input {
+  border-width: 1px;
+  border-color: #c8c6c6;
+  border-style: solid;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 182px;
+  height: 34px;
+  padding-left: 16px;
+}
+
+input:focus {
+  border-width: 1px;
+  border-color: #c89f2d;
+  border-style: solid;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 198px;
+  height: 34px;
+}
+
+label:nth-child(1),
+label:nth-child(2){
+  margin-top: 46px;
+}
+label:nth-child(3),
+label:nth-child(4){
+  margin-top: 29px;
+}
+
+.date-parent {
+  position: relative;
+}
+
+.date {
+  position: absolute;
+  top: 31px;
+  left: 178px;
+}
+
+.date-parent a {
+  display: block;
+  width: 13px;
+  height: 12px;
+}
+
+.btn-reservation {
+  margin-top: 33px;
+  font-family: OpenSans, Arial, sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  border-width: 1px;
+  border-color: #c89f2d;
+  border-style: solid;
+  background-color: rgba(200, 159, 45, 0.98);
+  width: 198px;
+  height: 34px;
+}
+
+input::-webkit-input-placeholder {
+  font-family: OpenSans, Arial, sans-serif;
+  color: #7c7c7c;
+  font-size: 16px;
+  font-style: italic;
+  text-align: left;
+}
+
+input::-moz-placeholder {
+  
+  font-family: OpenSans, Arial, sans-serif;
+  color: #7c7c7c;
+  font-size: 16px;
+  font-style: italic;
+  text-align: left;
+}
+input:-moz-input-placeholder {
+  
+  font-family: OpenSans, Arial, sans-serif;
+  color: #7c7c7c;
+  font-size: 16px;
+  font-style: italic;
+  text-align: left;
+}
+input:-ms-input-placeholder {
+  font-family: OpenSans, Arial, sans-serif;
+  color: #7c7c7c;
+  font-size: 16px;
+  font-style: italic;
+  text-align: left;
+  
+}
+
+footer {
+  padding-top: 61px;
+  padding-bottom: 72px;
+  background-color: #191919;
+
+}
+
+.footer-block {
+  width: 1072px;
+  margin: 0 auto;
+  font-family: OpenSans, Arial, sans-serif;
+  color: #ffffff;
+  font-size: 16px; 
+  line-height: 24px;
+  text-align: center;
+
+}
+
+.footer-block h3 {
+  font-family: YesevaOne;
+  color: #fefefe;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 24px;
+ 
+}
+
+.about {
+  float: left;
+  width: 343px;
+  margin-right: 132px;
+  font-weight: 400;
+ 
+}
+
+.work-time {
+  width: 199px;
+  float: left;
+  margin-right: 198px;
+  font-weight: 400;
+ 
+}
+
+.work-time b{
+  font-weight: 700;
+}
+
+.work-time ul {
+  margin: 0;
+  padding: 0;
+}
+
+.work-time li {
+  display: inline-block;
+  
+}
+
+.mk a {
+  display: inline-block;
+  width: 25px;
+  height: 15px;
+  background-position: 0 0;
+  background-image: url('../img/sprite-cards.png')
+}
+
+.paypai a {
+  display: inline-block;
+  width: 25px;
+  height: 15px;
+  background-position: -32px 0;
+  background-image: url('../img/sprite-cards.png')
+}
+
+.visa a {
+  display: inline-block;
+  width: 25px;
+  height: 15px;
+  background-position: -64px 0;
+  background-image: url('../img/sprite-cards.png')
+}
+
+.union a {
+  display: inline-block;
+  width: 25px;
+  height: 15px;
+  background-position: -95px 0;
+  background-image: url('../img/sprite-cards.png')
+}
+
+.location {
+  width: 200px;
+  float: left;
+  font-weight: 700;
+}
+
+.location ul {
+  margin: 0;
+  padding: 0;
+}
+
+.location li {
+  display: inline-block;  
+}
+
+.fb a{
+  display: inline-block;
+  width: 20px;
+  height: 17px;
+  background-position: 0 0;
+  background-image: url('../img/sprite-icons.png')
+}
+
+.youtube a {
+  display: inline-block;
+  width: 20px;
+  height: 17px;
+  background-position: -20px 0;
+  background-image: url('../img/sprite-icons.png')
+}
+
+.twitter a {
+  display: inline-block;
+  width: 20px;
+  height: 17px;
+  background-position: -43px 0;
+  background-image: url('../img/sprite-icons.png')
+}
+
+.instagramm a {
+  display: inline-block;
+  width: 20px;
+  height: 17px;
+  background-position: -70px 0;
+  background-image: url('../img/sprite-icons.png')
+}
+
+
+
+/*
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  height: 35px;
+  padding-left: 18px; 
+  width: 257px;
+  color: #ffffff;
+  border: none;
+  border-bottom: 1px solid #484848;
+  background: linear-gradient(to top, #0e0e0e, #111111);
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  background: #1b5288;
+  border-bottom: 1px solid #1f5384;
+  -webkit-box-shadow: 0px 0px 32px 2px rgba(66,125,166,1);
+  -moz-box-shadow: 0px 0px 32px 2px rgba(66,125,166,1);
+  box-shadow: 0px 0px 32px 2px rgba(66,125,166,1);
+  
+}
+
+*/
