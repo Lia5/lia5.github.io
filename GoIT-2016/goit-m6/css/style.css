@@ -3,6 +3,64 @@ body {
   padding: 0;
 }
 
+@font-face{
+  font-family: "GentiumBookBasic";
+  src: url("../fonts/GenBkBasR.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: "GentiumBookBasic";
+  src: url("../fonts/GenBkBasI.ttf") format("truetype");
+font-weight: normal;
+font-style: italic;
+}
+
+@font-face{
+font-family: "GentiumBookBasic";
+src: url("../fonts/GenBkBasB.ttf") format("truetype");
+font-weight: bold;
+font-style: normal;
+}
+
+@font-face{
+font-family: "GentiumBookBasic";
+src: url("../fonts/GenBkBasBI.ttf") format("truetype");
+font-weight: bold;
+font-style: italic;
+}
+
+@font-face {
+    font-family: "YesevaOne";
+    src: url("../fonts/YesevaOneRegular.eot");
+    src: url("../fonts/YesevaOneRegular.eot?#iefix") format("embedded-opentype"), 
+    url("../fonts/YesevaOneRegular.woff") format("woff"), 
+    url("../fonts/YesevaOneRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/LatoR.eot");
+    src: url("../fonts/LatoR.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/LatoR.woff") format("woff"),
+    url("../fonts/LatoR.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("../fonts/OpenSansRegular.eot");
+    src: url("../fonts/OpenSansRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansRegular.woff") format("woff"),
+    url("../fonts/OpenSansRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
 section {
   margin: 0;
   padding: 0;
@@ -17,7 +75,7 @@ section {
   width: 1600px;
   height: 750px;
   position: relative;
-  background-image: url('../img/bg-pasta.jpg');
+  background-image: url("../img/bg-pasta.jpg");
 }
 
 .logo-text {
@@ -44,11 +102,11 @@ section {
 }
 
 .logo li {
-  padding: 0 12px 0 12px;
+  padding: 0 15px 0 15px;
   display: inline-block;
   text-decoration: none;
   color: #ffffff;
-  font-family: GentiumBookBasic, Georgia, 'Times New Roman', Times, serif;
+  font-family: "GentiumBookBasic", Georgia, "Times New Roman", Times, serif;
   font-size: 21px; 
   font-weight: 700;
   text-align: justify;
@@ -64,7 +122,7 @@ section {
   width: 21px;
   height: 18px;
   background-position: 0 0;
-  background-image: url('../img/sprite-social.png');
+  background-image: url("../img/sprite-social.png");
 }
 
 .nav-youtube a {
@@ -72,7 +130,7 @@ section {
   width: 21px;
   height: 18px;
   background-position: -34px 0;
-  background-image: url('../img/sprite-social.png');
+  background-image: url("../img/sprite-social.png");
 }
 
 .nav-fb a {
@@ -80,7 +138,7 @@ section {
   width: 21px;
   height: 18px;
   background-position: -62px 0;
-  background-image: url('../img/sprite-social.png');
+  background-image: url("../img/sprite-social.png");
 }
 
 .logo a {
@@ -92,9 +150,9 @@ h1 {
   width: 955px;
   margin: 0 auto;
   margin-top: 80px;
-  font-family: YesevaOne;
+  font-family: "YesevaOne";
   color: #ffffff;
-  font-size: 90px;
+  font-size: 89px;
   font-weight: 400;
   text-align: center;
   text-shadow: 0 1px 2px rgba(1, 1, 1, 0.64);
@@ -145,7 +203,7 @@ h1 {
   padding-left: 294px;
   padding-right: 240px;
   text-align: center;
-  background-image: url('../img/pattern-content.jpg');
+  background-image: url("../img/pattern-content.jpg");
  
 }
 
@@ -157,7 +215,7 @@ h1 {
 
 .content-block h2 {
   padding-top: 106px;
-  font-family: YesevaOne;
+  font-family: "YesevaOne";
   color: #cc9900;
   font-size: 36px;
   font-weight: 400;
@@ -184,7 +242,7 @@ h1 {
   width: 1600px;
   
   padding: 100px 0 97px 0;
-  background-image: url('../img/bg-basil.jpg');
+  background-image: url("../img/bg-basil.jpg");
 }
 
 .ingridients-block {
@@ -204,7 +262,7 @@ h1 {
 .ingridients-block h2 {
   margin: 0;
   padding: 0;
-  font-family: YesevaOne;
+  font-family: "YesevaOne";
   color: #ffffff;
   font-size: 36px;
   font-weight: 400;
@@ -215,7 +273,7 @@ h1 {
   margin: 0;
   padding: 0;
   /*width: 409px;*/
-  font-family: Lato;
+  font-family: "Lato";
   color: #ffffff;
   font-size: 16px;
   font-weight: 400;
@@ -242,28 +300,28 @@ h1 {
   width: 110px;
   height: 110px;
   background-position: 0 0;
-  background-image: url('../img/sprite-ingridients.png') 
+  background-image: url("../img/sprite-ingridients.png") 
 
 }
 .paprica {
   width: 110px;
   height: 110px;
   background-position: 110px 0;
-  background-image: url('../img/sprite-ingridients.png') 
+  background-image: url("../img/sprite-ingridients.png") 
 
 }
 .bread {
   width: 110px;
   height: 110px;
   background-position: 252px 0;
-  background-image: url('../img/sprite-ingridients.png') 
+  background-image: url("../img/sprite-ingridients.png") 
 
 }
 
 .food-menu {
   text-align: center;
   margin: 0 auto;
-  background-image: url('../img/pattern-menu.jpg') 
+  background-image: url("../img/pattern-menu.jpg") 
 }
 
 .left-collum {
@@ -281,7 +339,7 @@ h1 {
 }
 
 .food-menu h2 {
-  font-family: YesevaOne;
+  font-family: "YesevaOne";
   color: #cc9900;
   font-size: 36px;
   font-weight: 400;
@@ -308,7 +366,7 @@ h1 {
 .food-menu p {
   margin: 0;
   padding: 0;
-  font-family: Lato;
+  font-family: "Lato";
   color: #4c4c4c;
   font-size: 16px;
   font-weight: 400;
@@ -319,7 +377,7 @@ h1 {
 
 .name-left {
   float: left;
-  font-family: YesevaOne;
+  font-family: "YesevaOne";
   color: #c89f2d;
   font-size: 21px; 
   font-weight: 400;
@@ -330,7 +388,7 @@ h1 {
 
 .price-right {
   float: right;
-  font-family: YesevaOne;
+  font-family: "YesevaOne";
   color: #c89f2d;
   font-size: 21px; 
   font-weight: 400;
@@ -354,8 +412,8 @@ h1 {
   padding: 1px 5px 1px 5px;
   background-color: #c89f2d;
   color: #ffffff;
-  top: -23px;
-  right: -2px;
+  top: -20px;
+  right: -1px;
 
 }
 
@@ -364,8 +422,8 @@ h1 {
   padding: 1px 5px 1px 5px;
   background-color: #c89f2d;
   color: #ffffff;
-  top: -23px;
-  right: -2px;
+  top: -20px;
+  right: -1px;
 
 }
 
@@ -382,7 +440,7 @@ h1 {
   margin: 0 auto;
   padding-top: 100px;
   padding-bottom: 101px;
-  background-image: url('../img/bg-barbecue.jpg') 
+  background-image: url("../img/bg-barbecue.jpg") 
 }
 
 .reviews-block {
@@ -396,7 +454,7 @@ h1 {
 .reviews-block h2 {
   margin: 0;
   padding: 0;
-  font-family: YesevaOne;
+  font-family: "YesevaOne";
   color: #ffffff;
   font-size: 36px; 
   font-weight: 400;
@@ -411,16 +469,16 @@ h1 {
 .reviews-block p {
   margin: 0;
   padding: 0;
-  font-family: GentiumBookBasic;
+  font-family: "GentiumBookBasic";
   color: #dee0e0;
-  font-size: 25px; 
+  font-size: 24px; 
   font-weight: 700;
   line-height: 45px; 
   text-align: center;
 }
 
 .reviews-right {
-  font-family: Lato;
+  font-family: "Lato";
   color: #ffffff;
   font-size: 18px; 
   font-weight: 400;
@@ -431,7 +489,7 @@ h1 {
 .reservation {
   margin: 0 auto;
   padding: 100px 355px 101px 215px;
-  background-image: url('../img/pattern-reservation.jpg') 
+  background-image: url("../img/pattern-reservation.jpg") 
 }
 
 .reservation img {
@@ -447,7 +505,7 @@ h1 {
 .reservation-block-right h2 {
   margin: 0;
   padding: 0;
-  font-family: YesevaOne;
+  font-family: "YesevaOne";
   color: #cc9900;
   font-size: 36px; 
   font-weight: 400;
@@ -461,9 +519,9 @@ h1 {
 }
 
 .reservation-block-right p {
-  margin: 0;
+  margin: 0 0 10px 0;
   padding: 0;
-  font-family: Lato;
+  font-family: "Lato";
   color: #4c4c4c;
   font-size: 16px;
   font-weight: 400;
@@ -475,7 +533,7 @@ label {
   display: block;
   float: left;
   width: 50%;
-  font-family: OpenSans, Arial, sans-serif;
+  font-family: "OpenSans", Arial, sans-serif;
   color: #c9a131;
   font-size: 14px;
   font-weight: 700;
@@ -504,7 +562,7 @@ input:focus {
 
 label:nth-child(1),
 label:nth-child(2){
-  margin-top: 46px;
+  margin-top: 36px;
 }
 label:nth-child(3),
 label:nth-child(4){
@@ -528,8 +586,8 @@ label:nth-child(4){
 }
 
 .btn-reservation {
-  margin-top: 33px;
-  font-family: OpenSans, Arial, sans-serif;
+  margin: 33px;
+  font-family: "OpenSans", Arial, sans-serif;
   color: #ffffff;
   font-size: 16px;
   font-weight: 400;
@@ -540,10 +598,11 @@ label:nth-child(4){
   background-color: rgba(200, 159, 45, 0.98);
   width: 198px;
   height: 34px;
+  
 }
 
 input::-webkit-input-placeholder {
-  font-family: OpenSans, Arial, sans-serif;
+  font-family: "OpenSans", Arial, sans-serif;
   color: #7c7c7c;
   font-size: 16px;
   font-style: italic;
@@ -552,7 +611,7 @@ input::-webkit-input-placeholder {
 
 input::-moz-placeholder {
   
-  font-family: OpenSans, Arial, sans-serif;
+  font-family: "OpenSans", Arial, sans-serif;
   color: #7c7c7c;
   font-size: 16px;
   font-style: italic;
@@ -560,14 +619,14 @@ input::-moz-placeholder {
 }
 input:-moz-input-placeholder {
   
-  font-family: OpenSans, Arial, sans-serif;
+  font-family: "OpenSans", Arial, sans-serif;
   color: #7c7c7c;
   font-size: 16px;
   font-style: italic;
   text-align: left;
 }
 input:-ms-input-placeholder {
-  font-family: OpenSans, Arial, sans-serif;
+  font-family: "OpenSans", Arial, sans-serif;
   color: #7c7c7c;
   font-size: 16px;
   font-style: italic;
@@ -585,7 +644,7 @@ footer {
 .footer-block {
   width: 1072px;
   margin: 0 auto;
-  font-family: OpenSans, Arial, sans-serif;
+  font-family: "OpenSans", Arial, sans-serif;
   color: #ffffff;
   font-size: 16px; 
   line-height: 24px;
@@ -594,7 +653,7 @@ footer {
 }
 
 .footer-block h3 {
-  font-family: YesevaOne;
+  font-family: "YesevaOne";
   color: #fefefe;
   font-size: 21px;
   font-weight: 400;
@@ -637,7 +696,7 @@ footer {
   width: 25px;
   height: 15px;
   background-position: 0 0;
-  background-image: url('../img/sprite-cards.png')
+  background-image: url("../img/sprite-cards.png")
 }
 
 .paypai a {
@@ -645,7 +704,7 @@ footer {
   width: 25px;
   height: 15px;
   background-position: -32px 0;
-  background-image: url('../img/sprite-cards.png')
+  background-image: url("../img/sprite-cards.png")
 }
 
 .visa a {
@@ -653,7 +712,7 @@ footer {
   width: 25px;
   height: 15px;
   background-position: -64px 0;
-  background-image: url('../img/sprite-cards.png')
+  background-image: url("../img/sprite-cards.png")
 }
 
 .union a {
@@ -661,7 +720,7 @@ footer {
   width: 25px;
   height: 15px;
   background-position: -95px 0;
-  background-image: url('../img/sprite-cards.png')
+  background-image: url("../img/sprite-cards.png")
 }
 
 .location {
@@ -684,7 +743,7 @@ footer {
   width: 20px;
   height: 17px;
   background-position: 0 0;
-  background-image: url('../img/sprite-icons.png')
+  background-image: url("../img/sprite-icons.png")
 }
 
 .youtube a {
@@ -692,7 +751,7 @@ footer {
   width: 20px;
   height: 17px;
   background-position: -20px 0;
-  background-image: url('../img/sprite-icons.png')
+  background-image: url("../img/sprite-icons.png")
 }
 
 .twitter a {
@@ -700,7 +759,7 @@ footer {
   width: 20px;
   height: 17px;
   background-position: -43px 0;
-  background-image: url('../img/sprite-icons.png')
+  background-image: url("../img/sprite-icons.png")
 }
 
 .instagramm a {
@@ -708,7 +767,7 @@ footer {
   width: 20px;
   height: 17px;
   background-position: -70px 0;
-  background-image: url('../img/sprite-icons.png')
+  background-image: url("../img/sprite-icons.png")
 }
 
 
