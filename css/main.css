@@ -13,7 +13,18 @@ body {
   font-variation-settings: 'wdth' 100;
   font-size: 1rem;
 }
-
+.body {
+  background: linear-gradient(to right, #c6e2c4 5%, #9fe29a 17%, #61b15c 40%, #30722c 85%, #062c03 95%);
+}
+.negative {
+  background: linear-gradient(to left, #93adad -50%, #77a0b1 -10%, #4a7c92 0%, #125772 100%, #041a97 150%);
+}
+.percents {
+  background: linear-gradient(to bottom, #c6e2c4 2em, #9fe29a 4em, #76c570 8em, #499e45 16em, #298623 32em, #104b0c 64em, #042901 128em);
+}
+.radial {
+  background: radial-gradient(ellipse at top, orange, transparent), radial-gradient(ellipse at bottom, red, transparent);
+}
 h1 {
   font-size: 1.45rem;
 }
