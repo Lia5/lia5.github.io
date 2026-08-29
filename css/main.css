@@ -1,0 +1,16 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+h1, h2, h3 {
+  color: grey;
+}
+
+#main {
+  color: #e60202;
+}
+
+.h2 {
+  color: red;
+}
+
+.heading {
+  color: green;
+}
