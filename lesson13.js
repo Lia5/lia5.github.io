@@ -26,6 +26,14 @@ function pow(x, n) {
   return result;
 }
 
+function pow2(x, n) {
+  if(n == 1) {
+    return x;
+  } else {
+    return x * pow2(x, n - 1);
+  }
+}
+
 let x = prompt('Введіть x:', '');
 let n = prompt('Введіть n (показник степеня):', '');
 x = Number(x);
