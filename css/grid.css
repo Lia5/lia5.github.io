@@ -1,0 +1,120 @@
+
+* {
+  box-sizing: border-box;
+}
+      
+article div:nth-of-type(1) {
+    background-color: #c9316b;
+}
+
+article div:nth-of-type(2) {
+    background-color: #c9319e;
+}
+article div:nth-of-type(3) {
+    background-color: #c231c9;
+}
+article div:nth-of-type(4) {
+    background-color: #8f31c9;
+}
+article div:nth-of-type(5) {
+    background-color: #5c31c9;
+}
+article div:nth-of-type(6) {
+    background-color: #3138c9;
+}
+article div:nth-of-type(7) {
+    background-color: #316bc9;
+}
+article div:nth-of-type(8) {
+    background-color: #319ec9;
+}
+article div:nth-of-type(9) {
+    background-color: #31c9c2;
+}
+
+article div:nth-of-type(10) {
+    background-color: #31c98f;
+}
+
+article div:nth-of-type(11) {
+    background-color: #31c95c;
+}
+
+article div:nth-of-type(12) {
+    background-color: #38c931;
+}
+
+
+article {
+  margin: 2vw 0;
+}
+            
+article div {
+  color: #fff;
+  padding: 5vh;
+}
+
+.grid1 {
+  display: grid;
+  grid-template-columns: 15% 60% 25%;
+}
+.grid2 {
+  display: grid;
+  grid-template-rows: 295px 1fr 270px;
+}
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 90px 300px 1fr;
+}
+.grid4 {
+  display: grid;
+  grid-template-columns: repeat(4, 150px);
+  justify-content: center;
+}
+.grid5 {
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  justify-content: end;
+}
+.grid6 {
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  justify-content: space-between;
+}
+.grid7 {
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  justify-content: space-around;
+}
+.grid8 {
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  justify-content: space-evenly;
+}
+.grid9 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid10 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: start;
+  justify-items: start;
+}
+.grid11 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+.grid12 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-content: space-between;
+}
+.grid13 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-content: space-evenly;
+}
