@@ -31,6 +31,7 @@ if(!names.includes('Alfred')) {
 if(names.includes('Batman')) {
   names.splice(names.indexOf('Batman'), 1);
 }
+console.log('Current names array:', names);
 
 function sumInput() {
   const userArray = [];
