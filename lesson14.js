@@ -5,16 +5,18 @@ for (const fruit of fruits) {
 }
 
 while (fruits.length > 0) {
-  console.log(fruits.pop());
+  fruits.pop();
+  console.log(fruits);
 }
-
+const fruits2 = ['apple', 'banana', 'cantaloupe', 'blueberries', 'grapefruit'];
 do {
-  console.log(fruits.pop());
-} while (fruits.length > 0);
+  fruits2.pop();
+  console.log(fruits2);
+} while (fruits2.length > 0);
 
-const Numbs = [1,2,3,4,5,6,7,8,9,10];
+const numbs = [1,2,3,4,5,6,7,8,9,10];
 
-for (const num of Numbs) {
+for (const num of numbs) {
   if(num % 2 === 0) {
     console.log(num);
   }
@@ -37,7 +39,7 @@ function sumInput() {
   const userArray = [];
   let input;
   do {
-    input = prompt('Enter a number: ');
+    input = prompt('Enter a number: ').trim();
     if (input !== null && input !== '' && !isNaN(input)) {
       userArray.push(Number(input));
     }
