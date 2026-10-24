@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 19</title>
+    <link rel="stylesheet" href="css/login.css" />
+  </head>
+  <body>
+    <button id="openModalBtn">Зареєструватися</button>
+
+    <dialog id="regModal">
+      <h2>Registration</h2>
+      <form id="regForm">
+        <div class="form-group">
+          <label for="login">Login:</label>
+          <input type="text" id="login" name="login" required minlength="3" />
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            required
+            minlength="6"
+          />
+        </div>
+
+        <div class="form-line">
+          <input type="checkbox" id="rememberMe" />
+          <label for="rememberMe">Remember me</label>
+        </div>
+        <div class="btns">
+          <button id="loginBtn" type="submit" class="btn primary-btn">Login</button>
+          <button id="cancelModalBtn" type="button" class="btn outline-btn">Cancel</button>
+        </div>
+      </form>
+      <button id="closeModalBtn" class="close-btn">&times;</button>
+    </dialog>
+    <script type="module" src="js/login.js"></script>
+  </body>
+</html>
