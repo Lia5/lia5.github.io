@@ -1,0 +1,16 @@
+/ts-base/node_modules/
+/ts-base/dist/
+
+# Покриття тестами
+coverage/
+
+.env
+.env.*
+!.env.example
+
+*.log
+npm-debug.log*
+
+.vscode/
+.idea/
+.DS_Store
